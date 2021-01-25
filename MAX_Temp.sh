@@ -1,5 +1,5 @@
 #!/bin/bash
-#simple script to run mapreduce job on hadoop
+# simple script to run mapreduce job on hadoop
 # Mohamed Adel Hsn  :> coded at 25/01/2021 , 11:00PM
 #-----------------------------------------------------
 # first put or copy your dataset from local into hdfs
