@@ -2,6 +2,8 @@
 # simple script to run mapreduce job on hadoop
 # Mohamed Adel Hsn  :> coded at 25/01/2021 , 11:00PM
 #-----------------------------------------------------
+# create new directory on HDFS
+hadoop fs –mkdir /Test
 # first put or copy your dataset from local into hdfs
 hadoop fs -put /home/hdpuser/Desktop/dataset/sample.txt hdfs://localhost:9000/Test
 # run your own mapreduce job by passing jar file into hadoop with the following schema :-
